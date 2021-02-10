@@ -13,7 +13,7 @@ namespace UnitTestProject1
         {
             try
             {
-                using (var my_conn = new NpgsqlConnection("Host = localhost; Username = postgres; Password = admin; Database = postgres3"))
+                using (var my_conn = new NpgsqlConnection("Host = localhost; Username = postgres; Password = admin; Database = postgres"))
                 {
                     my_conn.Open();
                 }
