@@ -60,7 +60,7 @@ namespace UnitTestProject1
 
             // Assert
             //Assert.IsTrue(actual_result == TestData.Calculator_Add_Sum_Regular_Numbers_result);
-            Assert.IsTrue(actual_result == -100);
+            Assert.IsTrue(actual_result == TestData.Calculator_Add_Sum_Regular_Numbers_result);
             // 1.0
             // 0.999999999999999999999999999999
         }
